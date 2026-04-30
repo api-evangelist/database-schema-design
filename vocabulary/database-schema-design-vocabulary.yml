@@ -1,0 +1,94 @@
+name: Database Schema Design Vocabulary
+description: >-
+  Vocabulary of database schema design concepts spanning relational,
+  document, key-value, and columnar stores plus migration practices.
+terms:
+  - term: Schema
+    definition: >-
+      The formal description of the structure of a database including
+      tables, columns, types, constraints, and relationships.
+  - term: Table
+    definition: >-
+      A relational structure that stores rows of typed columns.
+  - term: Column
+    definition: >-
+      A named, typed attribute within a table.
+  - term: Row
+    definition: >-
+      A single record within a table corresponding to one entity
+      instance.
+  - term: Data Type
+    definition: >-
+      The type of value that a column can hold such as INTEGER,
+      VARCHAR, TIMESTAMP, JSON, or UUID.
+  - term: Constraint
+    definition: >-
+      A rule enforced on data such as NOT NULL, UNIQUE, CHECK, or
+      FOREIGN KEY.
+  - term: Primary Key
+    definition: >-
+      The column or columns chosen to uniquely identify rows in a
+      table.
+  - term: Foreign Key
+    definition: >-
+      A column that references the primary key of another table to
+      enforce referential integrity.
+  - term: Index
+    definition: >-
+      A secondary data structure that accelerates lookups on one or
+      more columns.
+  - term: Composite Key
+    definition: >-
+      A primary or unique key composed of two or more columns.
+  - term: Surrogate Key
+    definition: >-
+      A system-generated identifier such as a sequence or UUID used
+      as the primary key.
+  - term: Natural Key
+    definition: >-
+      A key derived from real-world business attributes.
+  - term: View
+    definition: >-
+      A virtual table defined by a query that can be queried like a
+      table.
+  - term: Materialized View
+    definition: >-
+      A precomputed query result stored as a physical table for
+      faster access.
+  - term: Partition
+    definition: >-
+      A division of a table by range, list, or hash to improve
+      manageability and performance.
+  - term: Sharding
+    definition: >-
+      Horizontal partitioning of data across multiple database
+      instances.
+  - term: Schema Migration
+    definition: >-
+      A versioned change to a database schema applied through tools
+      like Liquibase, Flyway, or Atlas.
+  - term: DDL
+    definition: >-
+      Data Definition Language, the SQL subset for creating, altering,
+      and dropping schema objects.
+  - term: DCL
+    definition: >-
+      Data Control Language, the SQL subset for managing privileges
+      and access.
+  - term: Information Schema
+    definition: >-
+      The standardized set of read-only views describing the metadata
+      of a database.
+  - term: Schema Registry
+    definition: >-
+      A central service that stores and versions schemas for
+      streaming or document data formats such as Avro, JSON Schema,
+      and Protobuf.
+  - term: Embedded Document
+    definition: >-
+      A nested document inside another, used in document databases
+      like MongoDB to model contained relationships.
+  - term: Reference Document
+    definition: >-
+      A document that points to another by ID, used in document
+      databases when relationships are large or shared.
