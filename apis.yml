@@ -7,8 +7,7 @@ description: >-
   graph stores, and is supported by ER tooling, schema-as-code formats
   like DBML and Prisma, migration tools like Liquibase and Flyway, and
   emerging schema registries for streaming and document data.
-type: Topic
-xType: topic
+kind: topic
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
