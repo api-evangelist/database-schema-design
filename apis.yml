@@ -30,11 +30,11 @@ common:
     description: Wikipedia article on database schema concepts.
   - url: https://www.iso.org/standard/76583.html
     name: ISO/IEC 9075 (SQL)
-    type: Standard
+    type: Standards
     description: International standard for SQL, including DDL for schema definition.
   - url: https://www.iso.org/standard/76586.html
     name: ISO/IEC 9075-11 (SQL Information Schema)
-    type: Standard
+    type: Standards
     description: SQL standard for information and definition schemas.
   - url: https://www.dbml.org/
     name: DBML
@@ -42,31 +42,31 @@ common:
     description: Database Markup Language for declaring schemas as code.
   - url: https://www.prisma.io/docs/orm/prisma-schema
     name: Prisma Schema
-    type: Tool
+    type: Tools
     description: Prisma's declarative schema language for application databases.
   - url: https://www.liquibase.org/
     name: Liquibase
-    type: Tool
+    type: Tools
     description: Database schema change management and migration tool.
   - url: https://flywaydb.org/
     name: Flyway
-    type: Tool
+    type: Tools
     description: Database migration tool with versioned SQL changes.
   - url: https://atlasgo.io/
     name: Atlas
-    type: Tool
+    type: Tools
     description: Modern declarative schema-as-code platform for databases.
   - url: https://sqlmesh.com/
     name: SQLMesh
-    type: Tool
+    type: Tools
     description: Data transformation and schema evolution platform.
   - url: https://erwin.com/
     name: erwin Data Modeler
-    type: Tool
+    type: Tools
     description: Enterprise ER modeling and schema design tool.
   - url: https://dbdiagram.io/
     name: dbdiagram.io
-    type: Tool
+    type: Tools
     description: Web-based ERD tool that uses DBML.
   - url: https://www.lucidchart.com/pages/database-diagram/database-design
     name: Lucidchart Database Design
@@ -74,7 +74,7 @@ common:
     description: Lucidchart guide to database design and ERDs.
   - url: https://docs.confluent.io/platform/current/schema-registry/index.html
     name: Confluent Schema Registry
-    type: Tool
+    type: Tools
     description: Schema registry for Avro, JSON Schema, and Protobuf in streaming pipelines.
   - url: https://www.mongodb.com/docs/manual/data-modeling/
     name: MongoDB Data Modeling
