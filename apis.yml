@@ -32,7 +32,7 @@ created: '2025-01-01'
 modified: '2026-04-30'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/database-schema-design/refs/heads/main/apis.yml
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - url: https://en.wikipedia.org/wiki/Database_schema
