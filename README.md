@@ -1,4 +1,4 @@
-# Database Schema Design (database-schema-design)
+# database-schema-design
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,60 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Database Schema Design is the practice of defining the tables, columns, data types, constraints, indexes, and relationships that make up a database. It applies to relational, document, key-value, columnar, and graph stores, and is supported by ER tooling, schema-as-code formats like DBML and Prisma, migration tools like Liquibase and Flyway, and emerging schema registries for streaming and document data.
+## database-schema-design on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/database-schema-design/refs/heads/main/apis.yml)
+Everything profiled for database-schema-design is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/database-schema-design/](https://apis.io/providers/database-schema-design/)** — or go straight to one of the APIs or properties below.
 
-## Scope
+## API Evangelist rating
 
-- **Type:** Topic
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Not yet rated. See [apis.io/providers/database-schema-design/](https://apis.io/providers/database-schema-design/).
 
-## Tags
+## How this profile is made
 
-- Data Modeling
-- Database
-- Database Schema Design
-- Schema Design
-- Software Architecture
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Timestamps
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for database-schema-design: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-30
+## Open an issue
 
-## Common Resources
-
-### Standards & References
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Database_schema)
-- [ISO/IEC 9075 (SQL)](https://www.iso.org/standard/76583.html)
-- [ISO/IEC 9075-11 (SQL Information Schema)](https://www.iso.org/standard/76586.html)
-- [Lucidchart Database Design](https://www.lucidchart.com/pages/database-diagram/database-design)
-- [MongoDB Data Modeling](https://www.mongodb.com/docs/manual/data-modeling/)
-
-### Schema-as-Code & Tools
-
-- [DBML](https://www.dbml.org/)
-- [Prisma Schema](https://www.prisma.io/docs/orm/prisma-schema)
-- [Atlas](https://atlasgo.io/)
-- [SQLMesh](https://sqlmesh.com/)
-- [erwin Data Modeler](https://erwin.com/)
-- [dbdiagram.io](https://dbdiagram.io/)
-
-### Migrations & Registries
-
-- [Liquibase](https://www.liquibase.org/)
-- [Flyway](https://flywaydb.org/)
-- [Confluent Schema Registry](https://docs.confluent.io/platform/current/schema-registry/index.html)
-
-### Reference
-
-- [Vocabulary](vocabulary/database-schema-design-vocabulary.yml)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/database-schema-design/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
